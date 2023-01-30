@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 400px;
+    
+}
+
+.c{
+    grid-area: c;
+}
+
+.back{
+        grid-area: back;
+}
+
+.divide{
+    grid-area: divide;
+}
+
+.seven{
+    grid-area: seven;
+}
+.eight{
+    grid-area: eight;
+}
+.nine{
+    grid-area: nine;
+}
+.times{
+    grid-area: time;
+}
+.four{
+    grid-area: four;
+}
+.five{
+    grid-area: five;
+}
+.six{
+    grid-area: six;
+}
+.minus{
+    grid-area: minus;
+}
+.one{
+    grid-area: one;
+}
+.two{
+    grid-area: two;
+}
+.three{
+    grid-area: three;
+}
+.plus{
+    grid-area: plus;
+}
+.zero{
+    grid-area: zer;
+}
+.equals{
+    grid-area: equals;
+}
+
+.section-2{
+    display: grid;
+    row-gap: 2px;
+    column-gap: 2px;
+    width: 100%;
+    background-color: black;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    grid-template-areas:"c c  back divide"
+                    "seven eight nine time"
+                    "four five six minus" 
+                    "one two three plus" 
+                    "zer zer zer equals";
+
+}
+
+.header{
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
+    text-align: right;
+    background-color: black;
+    color: white;
+    padding:20px 5px;
+}
+.style{
+    background-color: #d8d9db;
+    color: black;
+    height: 100px;
+    border: none;
+    border-radius: 0;
+    font-size: 40px;
+    cursor: pointer;
+    text-align: center;
+    padding: 0%;
+   
+}
+.style.orange{
+    background-color: #df974c;
+    color: white;
+}
+.style:hover{
+    background-color:#ebebeb;
+  }
+  .style.orange:hover{
+    background-color: #dfb07e;
+  }
+  .style:active {
+  background-color: #bbbcbe;
+}
+.style.orange:active{
+    background-color: #dd8d37;
+}
